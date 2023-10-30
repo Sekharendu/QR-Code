@@ -1,0 +1,109 @@
+* {
+    color: hsl(228, 45%, 44%);
+    background-color: lightblue
+}
+
+.child {
+
+    top: 80px;
+    position: relative;
+    height: 390px;
+    width: 220px;
+    border: 2px solid white;
+    border-radius: 18px;
+    background-color: white;
+
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.child h3 {
+    text-align: center;
+    /* padding-left: 14px; */
+    /* padding-right: 14px; */
+    padding-top: 17px;
+    font-family: 'Outfit', sans-serif;
+    /* font-size: medium; */
+    background-color: white;
+    color: black;
+}
+
+.child p {
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    background-color: white;
+    color: black;
+    font-family: 'Outfit', sans-serif;
+}
+
+img {
+    top: 10px;
+    left: 16px;
+    position: relative;
+    /* display: block; */
+    height: 188px;
+    width: 188px;
+    top: 16px;
+    position: relative;
+    border-radius: 18px;
+}
+
+@media (max-width:300px) {
+    
+    .child {
+
+        top: 30px;
+        position: relative;
+        height: 390px;
+        width: 220px;
+        border: 2px solid white;
+        border-radius: 18px;
+        background-color: white;
+    
+    }
+    
+    #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .child h3 {
+        text-align: center;
+        /* padding-left: 14px; */
+        /* padding-right: 14px; */
+        padding-top: 17px;
+        font-family: 'Outfit', sans-serif;
+        /* font-size: medium; */
+        background-color: white;
+        color: black;
+    }
+    
+    .child p {
+        text-align: center;
+        font-family: 'Cabin', sans-serif;
+        background-color: white;
+        color: black;
+        font-family: 'Outfit', sans-serif;
+    }
+    
+    img {
+        top: 10px;
+        left: 16px;
+        position: relative;
+        /* display: block; */
+        height: 188px;
+        width: 188px;
+        top: 16px;
+        position: relative;
+        border-radius: 18px;
+    }
+    
+
+}
